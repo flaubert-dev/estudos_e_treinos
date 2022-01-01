@@ -1,4 +1,4 @@
-# Tipos de variáveis - Teórico & Prático
+# Tipos de variáveis - Teórico
 Uma compilação resumida sobre os tipos de variáveis que guardam um valor.
 
 - Temos três tipos de variáveis, exemplo:
