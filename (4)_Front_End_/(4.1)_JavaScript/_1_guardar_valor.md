@@ -6,12 +6,12 @@ Uma compilação teórica e prática para o aumento do conhecimento em guardar u
 > aleatorio = "Olá mundo";<br>
 > aleatorio = 'Olá mundo';
 
-1. ``**aleatorio**``  - _nome simbólico para um valor_
-2. ``**=**``          - _atribuição_
-3. ``**""**``         - _tipo string_
-4. ``**''**``         - _tipo string_
-5. ``**Olá mundo**``  - _valor_
-6. ``**;**``          - _conclui a instrução_
+1. ``aleatorio``  - _nome simbólico para um valor_
+2. ``=``          - _atribuição_
+3. ``""``         - _tipo string_
+4. ``''``         - _tipo string_
+5. ``Olá mundo``  - _valor_
+6. ``;``          - _conclui a instrução_
 
 ## Fontes de estudo
 - [Introdução ao JavaScript](https://www.udemy.com/course/introducao-ao-javascript/)
