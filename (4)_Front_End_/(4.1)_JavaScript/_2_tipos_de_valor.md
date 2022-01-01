@@ -4,7 +4,7 @@ Uma compilação teórica e prática para o aumento do conhecimento em guardar u
 - Temos vários tipos de dados / valores que podemos guardar na memória, exemplo:
 
 1. ``77``         - **_tipo number_**
-2. ``77.77``      - **_tipo float / doble_**
+2. ``77.77``      - **_tipo float / double_**
 3. ``""``         - **_tipo string_**
 4. ``''``         - **_tipo string_**
 5. ``true``       - **_tipo boolean_**
