@@ -4,16 +4,16 @@ Uma compilação teórica e prática para o aumento do conhecimento em guardar u
 - Podemos guardar um tipo de dado / valor (informação) na memória, exemplo:
 
 {
-  aleatorio = "Olá mundo";
+  aleatorio = "Olá mundo";<br>
   aleatorio = 'Olá mundo';
 }
 
-* aleatorio  (nome simbólico para um valor)
-* =          (atribuição)
-* ""         (tipo string)
-* ''         (tipo string)
-* Olá mundo  (valor)
-* ;          (conclui a instrução)
+* **aleatorio**  (nome simbólico para um valor)
+* **=**          (atribuição)
+* **""**         (tipo string)
+* **''**         (tipo string)
+* **Olá mundo**  (valor)
+* **;**          (conclui a instrução)
 
 ## Fontes de estudo
 - [Introdução ao JavaScript](https://www.udemy.com/course/introducao-ao-javascript/)
