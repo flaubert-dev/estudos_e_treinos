@@ -3,10 +3,8 @@ Uma compilação teórica e prática para o aumento do conhecimento em guardar u
 
 - Podemos guardar um tipo de dado / valor (informação) na memória, exemplo:
 
-{
-  aleatorio = "Olá mundo";<br>
-  aleatorio = 'Olá mundo';
-}
+aleatorio = "Olá mundo";<br>
+aleatorio = 'Olá mundo';
 
 * **aleatorio**  (nome simbólico para um valor)
 * **=**          (atribuição)
