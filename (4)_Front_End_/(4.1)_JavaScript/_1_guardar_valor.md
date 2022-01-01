@@ -6,17 +6,15 @@ Uma compilação teórica e prática para o aumento do conhecimento em guardar u
 {
   aleatorio = "Olá mundo";
   aleatorio = 'Olá mundo';
-
-  /*
-   * aleatorio  (nome simbólico para um valor)
-   * =          (atribuição)
-   * ""         (tipo string)
-   * ''         (tipo string)
-   * Olá mundo  (valor)
-   * ;          (conclui a instrução)
-   */
 }
 
-# Fontes de estudo
+* aleatorio  (nome simbólico para um valor)
+* =          (atribuição)
+* ""         (tipo string)
+* ''         (tipo string)
+* Olá mundo  (valor)
+* ;          (conclui a instrução)
+
+## Fontes de estudo
 - [Introdução ao JavaScript](https://www.udemy.com/course/introducao-ao-javascript/)
 - [JavaScript o guia definitivo](https://www.submarino.com.br/produto/112167569)
