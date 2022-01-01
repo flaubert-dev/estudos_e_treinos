@@ -1,0 +1,75 @@
+// Tipo 1: pratica 1.1
+.bloco {
+  background: yellow;
+
+  &__filho {
+    background: purple;
+
+    &-neto {
+      background: green;
+    }
+
+    &-neto--nomedomodificador {
+      background: blue;
+    }
+  }
+}
+
+// Tipo 2: pratica 1.1
+.bloco-pai {
+  background: yellow;
+
+  &__filho {
+    background: purple;
+
+    &-neto {
+      background: green;
+    }
+
+    &-neto--nomedomodificador {
+      background: blue;
+    }
+  }
+}
+
+// Tipo 1: pratica 1.2
+.unordered {
+  background: yellow;
+
+  &__list {
+    background: purple;
+
+    &-link-1 {
+      background: green;
+    }
+
+    &-link-2 {
+      background: blue;
+    }
+
+    &-link-3--modify {
+      background: tomato;
+    }
+  }
+}
+
+// Tipo 2: pratica 1.2
+.ordered-ol {
+  background: yellow;
+
+  &__list {
+    background: purple;
+
+    &-link-1 {
+      background: green;
+    }
+
+    &-link-2 {
+      background: blue;
+    }
+
+    &-link-3--modify {
+      background: tomato;
+    }
+  }
+}
