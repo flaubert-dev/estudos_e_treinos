@@ -1,22 +1,22 @@
 # Metodologia CSS - BEM
 BEM é uma forma ou metodologia que utilizo para criar as minhas classes CSS, exemplo:
 
-> ``<ul class="bloco">Bloco PAI<ul>``       - **_Tipo 1 (bloco PAI)_**
+> ``<ul class="bloco">Bloco PAI<ul>``       - **_Tipo 1 (bloco PAI)_**<br>
 > ``<ul class="bloco-pai">Bloco PAI<ul>``   - **_Tipo 2 (bloco PAI)_**
 
 <br>
 
-> ``<li class="bloco__filho">Bloco FILHO<li>``        - **_Tipo 1 (bloco FILHO)_**
+> ``<li class="bloco__filho">Bloco FILHO<li>``        - **_Tipo 1 (bloco FILHO)_**<br>
 > ``<li class="bloco-pai__filho">Bloco FILHO<li>``    - **_Tipo 2 (bloco FILHO)_**
 
 <br>
 
-> ``<a class="bloco__filho-neto">Bloco NETO<a>``      - **_Tipo 1 (bloco NETO)_**
+> ``<a class="bloco__filho-neto">Bloco NETO<a>``      - **_Tipo 1 (bloco NETO)_**<br>
 > ``<a class="bloco-pai__filho-neto">Bloco NETO<a>``  - **_Tipo 2 (bloco NETO)_**
 
 <br>
 
-> ``<a class="bloco__filho-neto--hover">Bloco NETO<a>``      - **_--hover é o modificador (opcional)_**
+> ``<a class="bloco__filho-neto--hover">Bloco NETO<a>``      - **_--hover é o modificador (opcional)_**<br>
 > ``<a class="bloco-pai__filho-neto--hover">Bloco NETO<a>``  - **_--hover é o modificador (opcional)_**
 
 <br>
