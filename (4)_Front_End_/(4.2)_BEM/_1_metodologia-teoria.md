@@ -19,7 +19,5 @@ BEM é uma forma ou metodologia que utilizo para criar as classes CSS, exemplo:
 > ``<a class="bloco__filho-neto--hover">Bloco NETO<a>``      - **_--hover é o modificador (opcional)_**<br>
 > ``<a class="bloco-pai__filho-neto--hover">Bloco NETO<a>``  - **_--hover é o modificador (opcional)_**
 
-<br>
-
 ## Fontes de estudo
 - [BEM Guia Definitivo](https://desenvolvimentoparaweb.com/css/bem/)
