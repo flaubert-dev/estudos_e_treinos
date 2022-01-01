@@ -1,5 +1,5 @@
 # Metodologia CSS - BEM
-BEM é uma forma ou metodologia que utilizo para criar as minhas classes CSS, exemplo:
+BEM é uma forma ou metodologia que utilizo para criar as classes CSS, exemplo:
 
 > ``<ul class="bloco">Bloco PAI<ul>``       - **_Tipo 1 (bloco PAI)_**<br>
 > ``<ul class="bloco-pai">Bloco PAI<ul>``   - **_Tipo 2 (bloco PAI)_**
@@ -24,12 +24,12 @@ BEM é uma forma ou metodologia que utilizo para criar as minhas classes CSS, ex
 Na prática ficaria assim no **tipo 1**:
 
   {
-    <ul class="bloco"> /* Bloco PAI */
+    <ul> class="bloco"> /* Bloco PAI */
       <li class="bloco__filho"> /* Bloco FILHO */
         <a class="bloco__filho-neto"></a> /* Bloco NETO */
         <a class="bloco__filho-neto--nomedomodificador"></a> /* Bloco NETO com modificador */
       </li> 
-    <ul>
+    </ul>
   }
 
 Na prática ficaria assim no **tipo 2**:
@@ -40,7 +40,7 @@ Na prática ficaria assim no **tipo 2**:
         <a class="bloco-pai__filho-neto"></a> /* Bloco NETO */
         <a class="bloco-pai__filho-neto--nomedomodificador"></a> /* Bloco NETO com modificador */
       </li> 
-    <ul>
+    </ul>
   }
 
 ## Fontes de estudo
