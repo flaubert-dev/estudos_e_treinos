@@ -4,3 +4,5 @@ console.log(window);
 
 window.innerHeight;
 // esse exemplo retorna a altura (height) do browser (navegador)
+// .innerHeight acessando uma propriedade do objeto window
+// propriedades não executam, só retornam um valor 
