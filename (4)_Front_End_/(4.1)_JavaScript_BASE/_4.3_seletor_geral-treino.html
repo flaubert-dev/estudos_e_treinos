@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seletor Geral Treino</title>
+  </head>
+
+  <body>
+
+    <!-- (1) -->
+    <section class="section">
+      <h2>Lorem ipsum dolor sit.</h2>
+    </section><!-- (1) -->
+
+    <!-- (1) -->
+    <main class="section">
+      <h2>Lorem ipsum dolor sit.</h2>
+    </main><!-- (1) -->
+
+    <!-- (2) -->
+    <ul>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+    </ul><!-- (2) -->
+
+    <!-- (2) -->
+    <ul>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+    </ul><!-- (2) -->
+
+    <!-- (2) -->
+    <ul>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li>
+    </ul><!-- (2) -->
+
+    <!-- (3) -->
+    <ul class="lista-com-imagens">
+      <li><img src="#" alt="Nada"></li>
+      <li><img src="#" alt="Nada"></li>
+    </ul><!-- (3) -->
+
+    <!-- JS -->
+    <script>
+
+      // (1)
+      const elementoSection   = document.querySelectorAll('.section');
+      // Seleciona TODOS os elementos que tem a classe CSS: section
+
+      // (2)
+      const elementoTag       = document.querySelectorAll('ul');
+      // Seleciona TODOS os elementos que tem a tag html: <ul></ul>
+
+      // (3)
+      const elementoClass     = document.querySelectorAll('.lista-com-imagens img')
+      // Seleciona TODOS os elementos img dentro de todo o elemento
+      // que tem a classe CSS: lista-com-imagens
+
+    </script>
+  </body>
+</html>
