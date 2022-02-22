@@ -29,6 +29,11 @@
       <li><a href="#">Sou 3</a></li><!-- (Este é o cara selecionado) -->
     </ul><!-- (3) -->
 
+    <!-- (4) -->
+    <a href="https://mixtutoriais.com.br/" target="_blank">
+      Blog
+    </a><!-- (4) -->
+
     <!-- JS -->
     <script>
 
@@ -44,6 +49,11 @@
       const elementoLast    = document.querySelector('.super-lista li:last-child');
       // Seleciona apenas o último <li></li> da primeira <ul></ul> 
       // que tem a classe CSS: super-lista
+
+      // (4)
+      const elementoLast    = document.querySelector('[href^="https://"]');
+      // Seleciona apenas o PRIMEIRO elemento que tenha o atributo href
+      // e que comece com "https://" 
 
     </script>
   </body>
