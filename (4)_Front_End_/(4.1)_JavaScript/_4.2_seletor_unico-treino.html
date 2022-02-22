@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seletor Único Treino</title>
+  </head>
+
+  <body>
+
+    <!-- (1) -->
+    <h1 class="amor">
+      L-O-V-E
+    </h1><!-- (1) -->
+
+    <!-- (2) -->
+    <h2 id="atodos">
+      Amor ao próximo hoje e sempre.
+    </h2><!-- (2) -->
+
+    <!-- (3) -->
+    <ul class="super-lista">
+      <li><a href="#">Sou 1</a></li>
+      <li><a href="#">Sou 2</a></li>
+      <li><a href="#">Sou 3</a></li><!-- (Este é o cara selecionado) -->
+    </ul><!-- (3) -->
+
+    <!-- JS -->
+    <script>
+
+      // (1)
+      const elementoClasse  = document.querySelector('.amor');
+      // Seleciona apenas o PRIMEIRO elemento que tem a classe CSS: amor
+
+      // (2)
+      const elementoID      = document.querySelector('#atodos');
+      // Seleciona apenas o PRIMEIRO elemento que tem o ID: atodos
+
+      // (3)
+      const elementoLast    = document.querySelector('.super-lista li:last-child');
+      // Seleciona apenas o último <li></li> da primeira <ul></ul> 
+      // que tem a classe CSS: super-lista
+
+    </script>
+  </body>
+</html>
