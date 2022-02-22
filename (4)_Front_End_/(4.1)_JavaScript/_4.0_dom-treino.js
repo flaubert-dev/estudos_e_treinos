@@ -15,3 +15,23 @@ alert('Isso irá fazer com que apareça um alerta sem o objeto window')
 document.querySelector('h1');
 // O objeto document acessa o método querySelector que recebe um argumento 'h1',
 // isso faz com que a primeira tag / elemento h1 dentro do documento (html) seja selecionado.
+
+const h1Selector = document.querySelector('h1');
+// o h1Selector vira o objeto Element herdando suas Propriedades e Métodos: 
+// https://developer.mozilla.org/pt-BR/docs/Web/API/Element
+
+h1Selector.addEventListener('click', function(){
+  console.log('Clicou em ', h1Selector);
+})
+// O h1Selector agora é um Element e acessa (.) o Método addEventListener
+// O Método addEventListener pode passar dois parâmetros
+// O primeiro parâmetro é o 'click'
+// O segundo parâmetro é a função
+
+// Outra forma de se criar o código acima:
+function callBack()
+{
+  console.log('Clicou em ', h1Selector);
+}
+
+h1Selector.addEventListener('click', callBack);
