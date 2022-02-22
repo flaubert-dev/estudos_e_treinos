@@ -34,6 +34,9 @@
       Blog
     </a><!-- (4) -->
 
+    <!-- (5) -->
+    <img src="#" alt="Nada"><!-- (5) -->
+
     <!-- JS -->
     <script>
 
@@ -46,14 +49,18 @@
       // Seleciona apenas o PRIMEIRO elemento que tem o ID: atodos
 
       // (3)
-      const elementoLast    = document.querySelector('.super-lista li:last-child');
+      const elementoLastLI  = document.querySelector('.super-lista li:last-child');
       // Seleciona apenas o último <li></li> da primeira <ul></ul> 
       // que tem a classe CSS: super-lista
 
       // (4)
-      const elementoLast    = document.querySelector('[href^="https://"]');
+      const elementoLink    = document.querySelector('[href^="https://"]');
       // Seleciona apenas o PRIMEIRO elemento que tenha o atributo href
-      // e que comece com "https://" 
+      // e que comece com "https://"
+      
+      // (5)
+      const elementoTag    = document.querySelector('img');
+      // Seleciona apenas o PRIMEIRO elemento que tenha a tag html: img
 
     </script>
   </body>
