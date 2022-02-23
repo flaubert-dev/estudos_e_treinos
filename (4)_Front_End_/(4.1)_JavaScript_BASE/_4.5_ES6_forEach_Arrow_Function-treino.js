@@ -61,3 +61,13 @@ imgs.forEach(() => {
 // Note que a palavra-chave: function (foi excluida), logo depois vem os parênteses,
 // em seguida vem o fat arrow (=>). Essa é a forma moderna de escrever uma função em JS, chamada:
 // **Arrow Function**.
+
+// \/\/\/ Exemplos: **Arrow Function** sendo utilizado em uma linha de várias formas:
+
+imgs.forEach(() => console.log(i++)); // Em uma linha sem parâmetro
+imgs.forEach((item) => console.log(item)); // Em uma linha com parâmetro
+imgs.forEach(item => console.log(item)); // Em uma linha com parâmetro (sem parênteses)
+
+imgs.forEach(() => i++); 
+// Em uma linha sem parâmetro, não é necessário da palavra-chave: return
+// Já é retornado direto, mesmo sem a palavra-chave: return
