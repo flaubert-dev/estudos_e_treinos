@@ -29,3 +29,15 @@ titulosArray.forEach(function(item){
 // 3: o método forEach() possui o parâmetro function(), o famoso callback.
 // 4: dentro do parâmetro function() tem o parâmetro: item
 // 5: cada item (ou elemento) selecionado será mostrado no console do navegador.
+
+// \/\/\/ Logo abaixo o **Arrow Function** sendo utilizado:
+
+const imgs = document.querySelectorAll('img');
+// Seleciona todas as tags html: img
+
+imgs.forEach((item) => {
+  console.log(item);
+});
+// 1: pega todas as tags html: img e acessa (.) o método forEach()
+// 2: a Arrow Function (=>) é utilizada com o parâmetro: item
+// 3: cada tag html: img selecionada será exibido no console do navegador.
