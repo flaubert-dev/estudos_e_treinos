@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>attributes, getAttribute, setAttribute</title>
+  </head>
+
+  <body>
+
+    <!-- (1) -->
+    <section class="classe" id="identidade" data-texto="teste">
+      <h1>Olá</h1>
+    </section><!-- (1) -->
+
+    <!-- JS -->
+    <script>
+
+      // (1)
+      const elementoClasse  = document.querySelector('.classe');
+      // Seleciona apenas o PRIMEIRO elemento que tem a classe CSS: classe
+
+      console.log(elementoClasse.attributes[0]); 
+      // Acessa o primeiro atributo do elemento. 
+      // Neste exemplo, o primeiro atributo é este: class="classe" isso é mostrado no console
+      // do navegador.
+
+      console.log(elementoClasse.attributes[1]); 
+      // Acessa o segundo atributo do elemento. 
+      // Neste exemplo, o segundo atributo é este: id="identidade" isso é mostrado no console
+      // do navegador.
+
+      console.log(elementoClasse.attributes[2]); 
+      // Acessa o terceiro atributo do elemento. 
+      // Neste exemplo, o terceiro atributo é este: data-texto="teste" isso é mostrado no console
+      // do navegador. 
+
+    </script>
+  </body>
+</html>
