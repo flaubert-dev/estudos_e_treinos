@@ -15,8 +15,11 @@ imgs.forEach(function(item, index, array){
 
 const titulos = document.getElementsByClassName('titulo');
 // Seleciona todos os elementos que tem a classe CSS: titulo
+// Lembrando que o getElementsByClassName é um HTML Collection.
+// Por ser HTML Collection não possui o método forEach()
 const titulosArray = Array.from(titulos);
-// Transforma titulos em um array (verdadeiro)
+// Transforma titulos em um array (verdadeiro): titulosArray
+// Depois de transformado, pode utilizar o método forEach()
 
 titulosArray.forEach(function(item){
   console.log(item);
