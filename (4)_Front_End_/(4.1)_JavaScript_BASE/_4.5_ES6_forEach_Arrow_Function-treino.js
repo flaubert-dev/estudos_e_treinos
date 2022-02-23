@@ -30,7 +30,7 @@ titulosArray.forEach(function(item){
 // 4: dentro do parâmetro function() tem o parâmetro: item
 // 5: cada item (ou elemento) selecionado será mostrado no console do navegador.
 
-// \/\/\/ Logo abaixo o **Arrow Function** sendo utilizado:
+// \/\/\/ Logo abaixo o **Arrow Function** sendo utilizado (com parâmetro):
 
 const imgs = document.querySelectorAll('img');
 // Seleciona todas as tags html: img
@@ -41,6 +41,23 @@ imgs.forEach((item) => {
 // 1: pega todas as tags html: img e acessa (.) o método forEach()
 // 2: a Arrow Function (=>) é criada com o parâmetro: item
 // Note que a palavra-chave: function (foi excluida), logo depois vem o parâmetro,
-// em seguida vem o fat arrow. Essa é a forma moderna de escrever uma função em JS, chamada:
+// em seguida vem o fat arrow (=>). Essa é a forma moderna de escrever uma função em JS, chamada:
 // **Arrow Function**.
 // 3: cada tag html: img selecionada será exibido no console do navegador.
+
+// \/\/\/ Logo abaixo o **Arrow Function** sendo utilizado (sem parâmetro):
+
+const imgs = document.querySelectorAll('img');
+// Seleciona todas as tags html: img
+
+let i = 0
+// O valor de i para iniciar o loop
+
+imgs.forEach(() => {
+  console.log(i++);
+});
+// 1: pega todas as tags html: img e acessa (.) o método forEach()
+// 2: a Arrow Function (=>) é criada sem nenhum parâmetro.
+// Note que a palavra-chave: function (foi excluida), logo depois vem os parênteses,
+// em seguida vem o fat arrow (=>). Essa é a forma moderna de escrever uma função em JS, chamada:
+// **Arrow Function**.
