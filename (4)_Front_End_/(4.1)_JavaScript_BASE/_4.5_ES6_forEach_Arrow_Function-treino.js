@@ -39,5 +39,8 @@ imgs.forEach((item) => {
   console.log(item);
 });
 // 1: pega todas as tags html: img e acessa (.) o método forEach()
-// 2: a Arrow Function (=>) é utilizada com o parâmetro: item
+// 2: a Arrow Function (=>) é criada com o parâmetro: item
+// Note que a palavra-chave: function (foi excluida), logo depois vem o parâmetro,
+// em seguida vem o fat arrow. Essa é a forma moderna de escrever uma função em JS, chamada:
+// **Arrow Function**.
 // 3: cada tag html: img selecionada será exibido no console do navegador.
