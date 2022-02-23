@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>attributes, getAttribute, setAttribute</title>
+  </head>
+
+  <body>
+
+    <!-- (1) -->
+    <img src="#" alt="Nada" id="tem-id-sim">
+
+    <!-- JS -->
+    <script>
+
+      // (1)
+      const img  = document.querySelector('img');
+      // Seleciona apenas o PRIMEIRO elemento no documento que tem a tag html: img
+
+      img.getAttribute('src');
+      // Acessa o atributo src e o valor
+
+      img.setAttribute('alt', 'Novo texto alternativo');
+      // Acessa o atributo alt e muda o valor de: Nada
+      // para: Novo texto alternativo
+
+      img.hasAttribute('id');
+      // Verifica se o atributo id existe (true ou false)
+
+      img.removeAttribute('alt');
+      // Remove o atributo selecionado. Neste exemplo o atributo alt foi removido
+
+      img.hasAttributes();
+      // Verifica se o elemento selecionado possui algum atributo (true ou false)
+
+    </script>
+  </body>
+</html>
