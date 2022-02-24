@@ -25,7 +25,6 @@ const listaComScrollHeight = listaComScroll.scrollHeight;
 console.log(listaComScrollHeight);
 // Mostra no console do navegador o tamanho total (height) do scroll da lista
 
-
 // \/\/ No exemplo abaixo podemos identificar a distância pelas métodos de leitura:
 // \/\/ offsetTop e offsetLeft
 
@@ -41,3 +40,29 @@ console.log(sectionTop);
 const sectionLeft = section.offsetLeft;
 // Retorna um número informando a distância entre o canto esquerdo 
 // do elemento e o canto esquerdo da página
+
+// \/\/ No exemplo abaixo será utilizado o método getBoundingClientRect()
+
+const section2 = document.querySelector('.my-section-2');
+// Seleciona o PRIMEIRO elemento com a classe CSS: my-section-2 dentro do documento html
+
+const rect = section2.getBoundingClientRect();
+// section2 acessa (.) o método getBoundingClientRect()
+
+const rectHeight = rect.height;
+// Retorna o height do elemento
+
+const rectWidth = rect.width;
+// Retorna o width do elemento
+
+const rectTop = rect.top;
+// Retorna a distância entre o topo do elemento e o scroll
+
+console.log(rectHeight);
+// Mostra no console do navegador o height do elemento
+
+console.log(rectWidth);
+// Mostra no console do navegador o width do elemento
+
+console.log(rectTop);
+// Mostra no console do navegador a distância entre o topo do elemento e o scroll
