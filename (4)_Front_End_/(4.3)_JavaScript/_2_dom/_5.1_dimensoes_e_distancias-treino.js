@@ -70,12 +70,6 @@ console.log(rectTop);
 // \/\/ No exemplo abaixo as dimensões e distâncias no Objeto Global: Window (Janela / DOM)
 
 window.innerWidth; // width da janela
-window.innerWidth; // width da janela
-window.innerWidth; // width da janela
-window.innerWidth; // width da janela
-
-window.innerWidth; // width da janela
-window.innerWidth; // width da janela
 
 if(window.innerWidth < 600) {
   console.log('Esta mensagem aparecerá no console se a tela for menor que 600px');
