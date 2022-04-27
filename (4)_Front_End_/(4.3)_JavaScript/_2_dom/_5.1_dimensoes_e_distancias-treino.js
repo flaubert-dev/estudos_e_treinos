@@ -25,7 +25,7 @@ const listaComScrollHeight = listaComScroll.scrollHeight;
 console.log(listaComScrollHeight);
 // Mostra no console do navegador o tamanho total (height) do scroll da lista
 
-// \/\/ No exemplo abaixo podemos identificar a distância pelas métodos de leitura:
+// \/\/ No exemplo abaixo podemos identificar a distância pelas propriedades de leitura:
 // \/\/ offsetTop e offsetLeft
 
 const section = document.querySelector('.my-section');
@@ -66,3 +66,17 @@ console.log(rectWidth);
 
 console.log(rectTop);
 // Mostra no console do navegador a distância entre o topo do elemento e o scroll
+
+// \/\/ No exemplo abaixo as dimensões e distâncias no Objeto Global: Window (Janela / DOM)
+
+window.innerWidth; // width da janela
+window.innerWidth; // width da janela
+window.innerWidth; // width da janela
+window.innerWidth; // width da janela
+
+window.innerWidth; // width da janela
+window.innerWidth; // width da janela
+
+if(window.innerWidth < 600) {
+  console.log('Esta mensagem aparecerá no console se a tela for menor que 600px');
+}
