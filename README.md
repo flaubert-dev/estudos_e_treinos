@@ -19,7 +19,7 @@ Para um melhor aproveitamento, resolvi montar a segunte estrutura de diretórios
 Ainda não vou seguir a estrutura à risca. Ou seja, posso começar `(por exemplo)` pela Lógica de Programação `(3)_Logica_`, depois ir para `JS || PHP || Laravel`. O mais interessante e divertido é aprender da maneira mais leve possível. O aprendizado feliz (na medida certa) trará bons frutos ao longo da jornada pois `"Cada pequeno sucesso, gera mais sucesso".`
 
 ## Atualizações
-Este repositório talvez seja atualizado semanalmente ou mensalmente. Vai depender muito do meu tempo e da necessidade de descanço para `"recarregar as baterias"`. Melhor ir bem devagar e aprender do jeito certo, do que ir rápido demais sem absorver o conhecimento. Cada um tem o seu tempo e jeito de aprender. O meu jeito é muito mais suave e lento. Porém, de forma gradual gera muitos resultados interessantes.
+Este repositório talvez seja atualizado em algum momento. Vai depender muito do meu tempo e da necessidade de descanço para `"recarregar as baterias"`. Melhor ir bem devagar e aprender do jeito certo, do que ir rápido demais sem absorver o conhecimento. Cada um tem o seu tempo e jeito de aprender. O meu jeito é muito mais suave e lento. Porém, de forma gradual gera muitos resultados interessantes.
 
 ## Objetivo / Meta
 Entender cada linha do código que estou escrevendo e trazer o máximo de soluções possíveis de uma forma simples e útil. Por intermédio dos `Estudos & Treinos`, escreverei códigos padronizados e bem documentados para que todos os Desenvolvedores compreendam perfeitamente o que escrevi.
