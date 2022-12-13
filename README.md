@@ -4,14 +4,14 @@ Um fluxo de estudos e treinos para relembrar conceitos, códigos úteis e comand
 ## Estrutura
 Para um melhor aproveitamento, resolvi montar a segunte estrutura de diretórios:
 
-    {
-      Estudos_&_Treinos/
-        ├── (1)_Linux_
-        ├── (2)_Git_
-        ├── (3)_Front_End_
-        ├── (4)_Back_End_
-        ├── (5)_Sage_
-    }
+```text
+estudos_e_treinos/    # → Diretório raiz
+├── (1)_Linux_/       # → Comandos úteis
+├── (2)_Git_/         # → Comandos úteis
+├── (3)_Front_End_/   # → Conceitos e códigos
+├── (4)_Back_End_/    # → Conceitos e códigos
+├── (5)_Sage_/        # → Conceitos e códigos
+```
 
 ## Objetivo / Meta
 Documentar conceitos, códigos úteis e comandos específicos. "Montar" um tipo de "guia rápido" organizado.
