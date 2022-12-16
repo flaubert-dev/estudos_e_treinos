@@ -10,7 +10,6 @@ estudos_e_treinos/    # → Diretório raiz
 ├── (2)_Git_/         # → Comandos úteis
 ├── (3)_Front_End_/   # → Conceitos e códigos
 ├── (4)_Back_End_/    # → Conceitos e códigos
-├── (5)_Sage_/        # → Conceitos e códigos
 ```
 
 ## Objetivo / Meta
